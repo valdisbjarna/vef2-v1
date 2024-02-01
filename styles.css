@@ -1,0 +1,48 @@
+html {
+  font-family: var(--font-base-family);
+  font-size: var(--font-base-size);
+  margin: auto;
+  max-width: var(--max-width);
+  padding: var(--spacing);
+}
+
+:root {
+  --font-base-size: 16px;
+  --font-base-family: Helvetica, Arial, sans-serif;
+  --max-width: 56rem;
+  --spacing: 1rem;
+  --color-border: #ddd;
+}
+body {
+  background-repeat: no-repeat;
+  background-color: green;
+  background-size: cover;
+  font-family: var(--font-base-family);
+  font-size: var(--font-base-size);
+  margin: auto;
+  max-width: var(--max-width);
+  padding: var(--spacing);
+}
+
+h1 {
+  color: white;
+  margin-bottom: var(--spacing);
+  text-align: center;
+  padding: 120px 16px;
+}
+
+.efni{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
